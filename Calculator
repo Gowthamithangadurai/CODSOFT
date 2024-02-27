@@ -1,0 +1,18 @@
+print("Select your option:")
+print("1.Addition")
+print("2.Subtractiion")
+print("3.multiplication")
+print("4.Divide")
+option=int(input())
+x=int(input("enter number 1="))
+y=int(input("enter number 2="))
+if option==1:
+  print(x+y)
+elif option==2:
+  print(x-y)
+elif option==3:
+  print(x*y)
+elif option==4:
+  print(x/y)
+else:
+  print("Invalid number")
